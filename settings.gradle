@@ -13,11 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+/* Original
 include 'Common', 'Fonts', 'CanvasLed', 'Led', 'Charts', 'Clock', 'Experimental', 'Gauge', 'HeatControl',
         'ImgSplitFlap', 'Lcd', 'LedBargraph', 'MatrixSegment', 'Notification', 'OnOffSwitch', 
         'QlockTwo', 'RadialMenu', 'RoundLcdClock', 'SevenSegment', 'SignalTower', 'SimpleIndicator', 'SixteenSegment', 
         'SplitFlap', 'VUMeter', 'FlipPanel', 'ValidationPane'
+*/
+
+include 'Common', 'Fonts', 'Experimental', 'Gauge', 'Led',
+        'Lcd', 'LedBargraph', 'FlipPanel'
+
 
 rootProject.name = 'Enzo'
 
